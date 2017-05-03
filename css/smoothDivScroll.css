@@ -1,0 +1,61 @@
+﻿div.scrollingHotSpotLeft
+{
+	width: 15px;
+	height: 27px;
+	position: absolute;
+	z-index: 200;
+	left: -24px;
+	top:22px;
+	background:url(../images/arrow_left.png) 0 0 no-repeat;
+	opacity: 1 !important;
+}
+
+div.scrollingHotSpotLeft:hover
+{
+	background:url(../images/arrow_left.png) 0 -27px no-repeat !important;
+}
+
+
+div.scrollingHotSpotLeftVisible
+{
+	background:url(../images/arrow_left.png) 0 0 no-repeat;
+	opacity: 1 !important; /* Standard CSS3 opacity setting */
+}
+
+div.scrollingHotSpotRight
+{
+	width: 15px;
+	height: 27px;
+	position: absolute;
+	z-index: 200;
+	right: -24px;
+	top:22px;
+	background:url(../images/arrow_right.png) 0 0 no-repeat;
+	opacity: 1 !important;
+}
+
+div.scrollingHotSpotRight:hover
+{
+	background:url(../images/arrow_right.png) 0 -27px no-repeat !important;
+}
+
+/* Visible right hotspot */
+div.scrollingHotSpotRightVisible
+{
+	background:url(../images/arrow_right.png) 0 0 no-repeat;
+	opacity: 1 !important; /* Standard CSS3 opacity setting */
+}
+
+div.scrollWrapper
+{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+div.scrollableArea
+{
+	position: relative;
+	width: auto;
+}
