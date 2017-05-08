@@ -298,6 +298,10 @@ ul {
 .block4 table tr td.td1 {
 	width:235px;
 }
+.tms{
+	padding-left:20%;
+	padding-right:10%;
+}
 
 .block4 table.t1 {
 	border:none;
