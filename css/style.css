@@ -139,13 +139,17 @@ ul {
 	height:520px;
 	padding:0 0 90px 0;
 	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-content: flex-end;
+	justify-content: center;
 }
 
 .block1 .bl_name {
 	text-align:center;
 	font-size:36px;
 	line-height:50px;
-	color:#333;
+	color:darkturquoise;
 	text-transform:uppercase;
 }
 
@@ -154,7 +158,7 @@ ul {
 }
 
 .block1 .bl_name span.sp2 {
-	color:#333;
+	color:darkturquoise;
 	font-size:20px;
 
 }
